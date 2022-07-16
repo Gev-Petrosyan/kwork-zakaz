@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Poppins:wght@200&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 0px 10px 0px;
+}
+
+header nav {
+    max-width: 1140px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    header nav {
+        max-width: 960px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav {
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+header nav[class="nav-pc"] {
+    display: block;
+}
+
+header nav[class="nav-mobile"] {
+    display: none;
+}
+
+header nav .nav-pc-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e5ea;
+    margin-bottom: 15px;
+}
+
+header nav .nav-mobile-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 720px;
+}
+
+@media (max-width: 760px) {
+    header nav .nav-mobile-one {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 575px) {
+    header nav .nav-mobile-one {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+header nav .nav-mobile-two {
+    margin: auto;
+    max-width: 720px;
+}
+
+@media (max-width: 760px) {
+    header nav .nav-mobile-two {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 575px) {
+    header nav .nav-mobile-two {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav[class="nav-pc"] {
+        display: none;
+    }
+    header nav[class="nav-mobile"] {
+        display: block;
+    }
+    header nav[class="nav-mobile"] .nav-mobile-two {
+        display: none;
+    }
+}
+
+header nav .nav-mobile-one button {
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header nav .nav-pc-one .logo img {
+    width: 100%;
+}
+
+header nav .nav-pc-one .select select {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e0e5ea;
+    text-align: center;
+    padding: 5px;
+}
+
+header nav .nav-pc-one .select select:focus {
+    border: 1px solid #e0e5ea;
+}
+
+header nav .nav-pc-one .select select:focus-visible {
+    border: 1px solid #e0e5ea;
+}
+
+header nav .nav-pc-one .select select option {
+    width: 100px;
+    height: 40px;
+}
+
+header nav .nav-mobile-two ul li div select {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e0e5ea;
+    text-align: center;
+    padding: 5px;
+}
+
+header nav .nav-mobile-two ul li div select:focus {
+    border: 1px solid #e0e5ea;
+}
+
+header nav .nav-mobile-two ul li div select:focus-visible {
+    border: 1px solid #e0e5ea;
+}
+
+header nav .nav-mobile-two ul li div select option {
+    width: 100px;
+    height: 40px;
+}
+
+header nav .nav-pc-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-pc-two ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav .nav-mobile-two ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e0e5ea;
+}
+
+header nav .nav-pc-two ul li div {
+    height: 60px;
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #e0e5ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-mobile-two ul li div {
+    height: 40px;
+}
+
+header nav .nav-pc-two ul li div[class="active"] {
+    padding: 0px 5px 15px 5px;
+    border-bottom: 4px solid #e86020;
+}
+
+header nav .nav-pc-two ul li div:hover {
+    border-bottom: 4px solid #e0e5ea;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header nav .nav-pc-two ul li div a {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav .nav-mobile-two ul li div a {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.section-two {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 60vh;
+}
+
+.section-two .container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .section-two  .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-two  .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 760px) {
+    .section-two  .container {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-two  .container {
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+.section-two .container h2 {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.6rem;
+    margin-bottom: 40px !important;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+@media (max-width: 760px) {
+    .section-two .container h2 {
+        font-size: 2.2rem;
+    }
+}
+
+.section-two .container p {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-two .container p a {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #e86020;
+}
+
+.section-two .container button {
+    width: 600px;
+    height: 50px;
+    color: white;
+    border: none;
+    background-color: #e86020;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+
+.section-two .container button:hover {
+    background-color: white;
+    border: 3px solid #e86020;
+    color: #e86020;
+}
+
+@media (max-width: 992px) {
+    .section-two .container button {
+        width: 100%;
+    }
+}
+
+
+
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer .container {
+    padding: 50px 0px 20px 0px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    footer .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1200px) {
+    footer  .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 760px) {
+    footer  .container {
+        max-width: 560px;
+    }
+}
+
+footer .container .footer-one {
+    margin-bottom: 30px;
+}
+
+footer .container .footer-one a {
+    font-size: 17px;
+}
+
+footer .container .footer-two {
+    margin-bottom: 20px;
+}
+
+footer .container .footer-one a {
+    font-size: 16px;
+}
+
+footer .container .footer-three p,a {
+    font-size: 14px;
+    color: #62707c;
+}
+
+footer .container .footer-box {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 760px) {
+    footer .container .footer-box {
+        display: inline;
+    }
+}
+
+@media (max-width: 760px) {
+    footer .container .footer-box div {
+        margin-bottom: 10px;
+    }
+}
+
+footer .container .footer-box a,p {
+    color: #62707c;
+}
+
+footer .container .footer-box a {
+    margin-right: 10px;
+}
